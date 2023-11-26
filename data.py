@@ -53,8 +53,47 @@ weapons = {"Antimatter Rifle": [0, 120, 360, 10, "Necrotic", "2-handed", 6, 8, 0
            "Yklwa": [1, 10, 30, 2, "Piercing", "", 1, 8, 0, 0]}
 feats = {}
 races = {}
-classes = {}
+classes = {"Artificer": [],
+           "Barbarian": [],
+           "Bard": [],
+           "Cleric": [],
+           "Druid": [],
+           "Fighter": [],
+           "Monk": [],
+           "Paladin": [],
+           "Ranger": [],
+           "Rogue": [],
+           "Sorcerer": [],
+           "Warlock": [],
+           "Wizard": []}
 gear = {}
-vehicles = {}
+vehicles = {"Galley": [],
+            "Keelboat": [],
+            "Longship": [],
+            "Rowboat": [],
+            "Sailing Ship": [],
+            "Warship": [],
+            "Battle Balloon": [],
+            "Mechanical Beholder": [],
+            "Demon Grinder": [],
+            "Devil's Ride": [],
+            "Scavenger": [],
+            "Tormentor": [],
+            "Bombard": [],
+            "Damselfly Ship": [],
+            "Flying Fish Ship": [],
+            "Hammerhead Ship": [],
+            "Lamprey Ship": [],
+            "Living Ship": [],
+            "Nautiloid": [],
+            "Nightspider": [],
+            "Scorpion Ship": [],
+            "Shrike Ship": [],
+            "Space Galleon": [],
+            "Squid Ship": [],
+            "Star Moth": [],
+            "Turtle Ship": [],
+            "Tyrant Ship": [],
+            "Wasp Ship": []}
 monsters = {}
 magic_items = {}
