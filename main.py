@@ -1,5 +1,6 @@
 import data
 from weapons import Weapons
+from character import Character
 
 
 def main():
