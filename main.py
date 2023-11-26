@@ -3,8 +3,7 @@ from weapons import Weapons
 
 
 def main():
-    for arr in data.weapons:
-        arr[0] = Weapons(arr)
+    pass
 
 
 if __name__ == '__main__':
