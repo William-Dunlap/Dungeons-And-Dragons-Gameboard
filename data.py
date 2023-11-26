@@ -51,3 +51,10 @@ weapons = [["Antimatter Rifle", 0, 120, 360, 10, "Necrotic", "2-handed", 6, 8, 0
            ["Warhammer", 15, 0, 5, 2, "Bludgeoning", "", 1, 8, 1, 10],
            ["Whip", 2, 0, 10, 3, "Slashing", "Finesse", 1, 4, 0, 0],
            ["Yklwa", 1, 10, 30, 2, "Piercing", "", 1, 8, 0, 0]]
+feats = []
+races = []
+classes = []
+gear = []
+vehicles = []
+monsters = []
+magic_items = []
