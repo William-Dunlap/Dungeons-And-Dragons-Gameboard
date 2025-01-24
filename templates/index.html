@@ -3,55 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Move Element on Click</title>
-    <style>
-        body {
-            margin: 0;
-            height: 100vh;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            position: relative;
-            overflow: hidden;
-        }
-        .movable {
-            width: 50px;
-            height: 50px;
-            background-color: red;
-            position: absolute;
-            top: 50%; /* Center initially */
-            left: 50%; /* Center initially */
-            transform: translate(-50%, -50%);
-            cursor: pointer;
-        }
-    </style>
+    <title>D&D Gameboard</title>
+    <link rel="stylesheet" href="../static/styles.css">
 </head>
 <body>
-    <div class="movable"></div>
+    <h1>D&D Gameboard</h1>
 
-    <script>
-        const movable = document.querySelector('.movable');
+    <div id="window">
+        <div id="zoomIn">+</div>
+        <div id="zoomOut">-</div>
+    </div>
 
-        // Track whether the movable element is selected
-        let isSelected = false;
-
-        // Add event listener to toggle selection on click
-        movable.addEventListener('click', (event) => {
-            event.stopPropagation(); // Prevent triggering the body click
-            isSelected = true;
-        });
-
-        // Add event listener to move the element on next click
-        document.body.addEventListener('click', (event) => {
-            if (isSelected) {
-                // Move the element to the clicked position
-                movable.style.left = `${event.clientX}px`;
-                movable.style.top = `${event.clientY}px`;
-
-                // Deselect the element
-                isSelected = false;
-            }
-        });
-    </script>
 </body>
 </html>
